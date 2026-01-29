@@ -1,0 +1,10 @@
+*{
+    background-color: bisque;
+    margin: auto;
+    padding: 0;
+}
+h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
