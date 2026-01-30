@@ -13,4 +13,9 @@
 // // console.log(id.getAttribute("my-para"))
 // console.log(id.setAttribute("class" , "Dangar"));
 let div = document.querySelector("div")
-console.log(div)
+div.style.backgroundColor = "Green"
+div.style.backgroundColor = "red"
+div.style.color = "Green"
+div.style.fontSize = "65px"
+div.style.padding = "5px"
+div.style.minHeight = "30vh" 
