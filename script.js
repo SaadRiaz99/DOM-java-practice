@@ -19,3 +19,15 @@ div.style.color = "Green"
 div.style.fontSize = "65px"
 div.style.padding = "5px"
 div.style.minHeight = "30vh" 
+
+let butn = document.createElement("button");
+butn.innerText = "click me";
+butn.style.border = "solid 3 px";
+console.log("butn");
+
+let divi = document.querySelector("div")
+divi.append(butn);
+
+let newheading = document.createElement("h1")
+newheading.innerHTML =  "<i><b>My name is Saad Bin RIaz</b></i>"
+document.querySelector("body").prepend(newheading)
