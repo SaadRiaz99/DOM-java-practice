@@ -31,3 +31,52 @@ divi.append(butn);
 let newheading = document.createElement("h1")
 newheading.innerHTML =  "<i><b>My name is Saad Bin RIaz</b></i>"
 document.querySelector("body").prepend(newheading)
+
+let li = document.createElement("li")
+li.innerText = "My List"
+
+
+let ulo = document.getElementById("oopo")
+ulo.innerText = "ata"
+ulo.appendChild(li)
+
+function alati(){
+    alert("Sahi hai  bhai kia kar raha hai ")
+}
+
+let butt = document.getElementById("buttoni")
+butt.addEventListener("mouseover" , function wah() {
+    butt.innerText = "Wah Chachu"
+    butt.style.backgroundColor = "grey"
+    
+})
+butt.addEventListener("mouseleave" , function chacu() {
+    butt.innerText = "jaa yar"
+    butt.style.backgroundColor = "red"
+    
+})
+let but = document.getElementById("butto")
+but.click =  ( e ) => {
+    console.log(e)
+}
+
+
+// let butn2 = document.getElementById("but")
+// butn2.addEventListener("click" , function mess() {
+//     butn2.innerText = "Saad Bin Riaz"
+//     butn2.style.backgroundColor = "Red"
+    
+    
+//     })
+// ) => {
+//         console.log(e)
+//     }
+
+let butn2 = document.getElementById("but")
+butn2.onclick = (evt) =>{
+    console.log(evt)
+    console.log(evt.type)
+    console.log(evt.target)
+
+}
+
